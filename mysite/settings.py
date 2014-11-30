@@ -36,7 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mysite.zanryu'
+    'mysite.zanryu',
+    'gunicorn'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -68,7 +69,7 @@ DATABASES = {
 
 #Template_Dirs
 TEMPLATE_DIRS = {
-    '/home/naoya/Projects/Python/pasoriWeb/mysite/mysite/mytemplate',
+    '/home/naoya/Projects/Zanryu_Derby/mysite/mytemplate',
 }
 
 # Internationalization
