@@ -1,16 +1,13 @@
-<html>
-<head>
-    <title>test</title>
-</head>
-<body>
-    {% if person_list %}
-    <ul>
-        {% for person in person_list %}
-        <li>{{ person.student_id }}</li>
-        {% endfor %}
-    </ul>
-    {% else %}
-    <p>No person is born</p>
-    {% endif %}
-</body>
-</html>
+{% extends 'zanryu/header.html' %}
+
+{% if person_list %}
+<ul>
+{% for person in person_list %}
+        {% if person.now_entry_exit == True %}
+        <li>{{ person.name }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% else %}
+<p>No person is born</p>
+{% endif %}test

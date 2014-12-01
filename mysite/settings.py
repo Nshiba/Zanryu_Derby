@@ -53,7 +53,6 @@ ROOT_URLCONF = 'mysite.urls'
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
@@ -67,11 +66,15 @@ DATABASES = {
     }
 }
 
-#Template_Dirs
-TEMPLATE_DIRS = {
-    # '/home/naoya/Projects/Zanryu_Derby/mysite/mytemplate',
-    '/home/naoya/Projects/Python/pasoriWeb/mysite/mysite/mytemplate',
-}
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+
+TEMPLATE_DIRS = ( os.path.join(SITE_ROOT,'mytemplate'),) 
+# {
+#     '/home/naoya/Projects/Zanryu_Derby/mysite/mytemplate',
+#     '/home/naoya/Projects/Python/pasoriWeb/mysite/mysite/mytemplate',
+# }
+
+MEDIA_ROOT = os.path.join(SITE_ROOT,'mymedia')
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
