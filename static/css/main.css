@@ -1,0 +1,12 @@
+body {
+    background: rgb(144,238,144);
+}
+.wrapper{
+    width: 100%;
+}
+.large-font{
+    font-size: x-large;
+}
+.person-list{
+    list-style: none;
+}

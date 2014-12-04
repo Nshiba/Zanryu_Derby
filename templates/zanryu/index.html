@@ -1,0 +1,32 @@
+{% extends 'zanryu/mybase.html' %}
+
+{% block head %}
+    {% include 'zanryu/head.html' %}
+{% endblock head %}
+
+{% block contents%}
+<div class="wrapper">
+    <div class="row">
+        <h1 class="col-md-4 col-md-offset-4">岩井研究室へようこそ！</h1>
+        <h2 class="col-md-6 col-md-offset-3">このサイトは岩井研究室の入退室管理システムになります。</h2>
+
+        <div class="col-md-4 col-md-offset-4">
+            {% if person_list %}
+            <p class="large-font">現在以下の学生が在室しています。</p>
+
+            <br>
+
+            <ul class="person-list">
+                {% for person in person_list %}
+                    {% if person.now_entry_exit == True %}
+                    <li class="large-font">{{ person.student_id }} : {{ person.name }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p>現在研究室には誰もいません。</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock contents %}
