@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from os.path import abspath, dirname, basename
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -66,15 +67,22 @@ DATABASES = {
     }
 }
 
-SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+SITE_ROOT = abspath(os.path.join(dirname(__file__),".."))
 
-TEMPLATE_DIRS = ( os.path.join(SITE_ROOT,'mytemplate'),) 
+STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(os.path.join(BASE_DIR, 'static/'))
+
+STATICFILES_DIRS = (
+    os.path.join(SITE_ROOT, 'static'),
+)
+
+TEMPLATE_DIRS = (
+        os.path.join(BASE_DIR,'templates'),
+) 
 # {
 #     '/home/naoya/Projects/Zanryu_Derby/mysite/mytemplate',
 #     '/home/naoya/Projects/Python/pasoriWeb/mysite/mysite/mytemplate',
 # }
-
-MEDIA_ROOT = os.path.join(SITE_ROOT,'mymedia')
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
@@ -93,4 +101,3 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_URL = '/static/'
