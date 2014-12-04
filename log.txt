@@ -1,0 +1,412 @@
+[2014-12-05 00:39:30 +0000] [21456] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:39:30 +0000] [21456] [INFO] Listening at: http://127.0.0.1:9001 (21456)
+[2014-12-05 00:39:30 +0000] [21456] [INFO] Using worker: sync
+[2014-12-05 00:39:30 +0000] [21461] [INFO] Booting worker with pid: 21461
+[2014-12-05 00:39:40 +0000] [21456] [INFO] Handling signal: int
+[2014-12-04 15:39:40 +0000] [21461] [INFO] Worker exiting (pid: 21461)
+[2014-12-05 00:39:40 +0000] [21456] [INFO] Shutting down: Master
+[2014-12-05 00:41:50 +0000] [21474] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:41:50 +0000] [21474] [INFO] Listening at: http://127.0.0.1:9001 (21474)
+[2014-12-05 00:41:50 +0000] [21474] [INFO] Using worker: sync
+[2014-12-05 00:41:50 +0000] [21479] [INFO] Booting worker with pid: 21479
+[2014-12-05 00:42:02 +0000] [21474] [INFO] Handling signal: int
+[2014-12-04 15:42:02 +0000] [21479] [INFO] Worker exiting (pid: 21479)
+[2014-12-05 00:42:02 +0000] [21474] [INFO] Shutting down: Master
+[2014-12-05 00:43:47 +0000] [21512] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:43:47 +0000] [21512] [INFO] Listening at: http://127.0.0.1:9001 (21512)
+[2014-12-05 00:43:47 +0000] [21512] [INFO] Using worker: sync
+[2014-12-05 00:43:47 +0000] [21520] [INFO] Booting worker with pid: 21520
+[2014-12-05 00:45:17 +0000] [21512] [INFO] Handling signal: int
+[2014-12-04 15:45:17 +0000] [21520] [INFO] Worker exiting (pid: 21520)
+[2014-12-05 00:45:17 +0000] [21512] [INFO] Shutting down: Master
+[2014-12-05 00:46:59 +0000] [21547] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:46:59 +0000] [21547] [INFO] Listening at: http://127.0.0.1:9001 (21547)
+[2014-12-05 00:46:59 +0000] [21547] [INFO] Using worker: sync
+[2014-12-05 00:46:59 +0000] [21552] [INFO] Booting worker with pid: 21552
+[2014-12-05 00:47:16 +0000] [21547] [INFO] Handling signal: int
+[2014-12-04 15:47:16 +0000] [21552] [INFO] Worker exiting (pid: 21552)
+[2014-12-05 00:47:16 +0000] [21547] [INFO] Shutting down: Master
+[2014-12-05 00:49:54 +0000] [21637] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:49:54 +0000] [21637] [INFO] Listening at: http://127.0.0.1:9001 (21637)
+[2014-12-05 00:49:54 +0000] [21637] [INFO] Using worker: sync
+[2014-12-05 00:49:54 +0000] [21642] [INFO] Booting worker with pid: 21642
+[2014-12-05 00:50:04 +0000] [21637] [INFO] Handling signal: int
+[2014-12-04 15:50:04 +0000] [21642] [INFO] Worker exiting (pid: 21642)
+[2014-12-05 00:50:04 +0000] [21637] [INFO] Shutting down: Master
+[2014-12-05 00:51:28 +0000] [21713] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:51:28 +0000] [21713] [INFO] Listening at: http://127.0.0.1:9001 (21713)
+[2014-12-05 00:51:28 +0000] [21713] [INFO] Using worker: sync
+[2014-12-05 00:51:28 +0000] [21718] [INFO] Booting worker with pid: 21718
+[2014-12-05 00:51:42 +0000] [21713] [INFO] Handling signal: int
+[2014-12-04 15:51:42 +0000] [21718] [INFO] Worker exiting (pid: 21718)
+[2014-12-05 00:51:42 +0000] [21713] [INFO] Shutting down: Master
+[2014-12-05 00:56:46 +0000] [21802] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:56:46 +0000] [21802] [INFO] Listening at: http://127.0.0.1:9001 (21802)
+[2014-12-05 00:56:46 +0000] [21802] [INFO] Using worker: sync
+[2014-12-05 00:56:46 +0000] [21807] [INFO] Booting worker with pid: 21807
+[2014-12-05 00:57:00 +0000] [21802] [INFO] Handling signal: int
+[2014-12-04 15:57:00 +0000] [21807] [INFO] Worker exiting (pid: 21807)
+[2014-12-05 00:57:00 +0000] [21802] [INFO] Shutting down: Master
+[2014-12-05 00:58:29 +0000] [21888] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 00:58:29 +0000] [21888] [INFO] Listening at: http://127.0.0.1:9001 (21888)
+[2014-12-05 00:58:29 +0000] [21888] [INFO] Using worker: sync
+[2014-12-05 00:58:29 +0000] [21893] [INFO] Booting worker with pid: 21893
+[2014-12-05 00:58:52 +0000] [21888] [INFO] Handling signal: int
+[2014-12-04 15:58:52 +0000] [21893] [INFO] Worker exiting (pid: 21893)
+[2014-12-05 00:58:52 +0000] [21888] [INFO] Shutting down: Master
+[2014-12-05 01:03:22 +0000] [22049] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:03:22 +0000] [22049] [INFO] Listening at: http://127.0.0.1:9001 (22049)
+[2014-12-05 01:03:22 +0000] [22049] [INFO] Using worker: sync
+[2014-12-05 01:03:22 +0000] [22054] [INFO] Booting worker with pid: 22054
+[2014-12-05 01:03:39 +0000] [22049] [INFO] Handling signal: int
+[2014-12-04 16:03:39 +0000] [22054] [INFO] Worker exiting (pid: 22054)
+[2014-12-05 01:03:39 +0000] [22049] [INFO] Shutting down: Master
+[2014-12-05 01:15:52 +0000] [22307] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:15:52 +0000] [22307] [INFO] Listening at: http://127.0.0.1:9001 (22307)
+[2014-12-05 01:15:52 +0000] [22307] [INFO] Using worker: sync
+[2014-12-05 01:15:52 +0000] [22312] [INFO] Booting worker with pid: 22312
+[2014-12-05 01:16:07 +0000] [22307] [INFO] Handling signal: int
+[2014-12-04 16:16:07 +0000] [22312] [INFO] Worker exiting (pid: 22312)
+[2014-12-05 01:16:07 +0000] [22307] [INFO] Shutting down: Master
+[2014-12-05 01:29:56 +0000] [22700] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:29:56 +0000] [22700] [INFO] Listening at: http://127.0.0.1:9001 (22700)
+[2014-12-05 01:29:56 +0000] [22700] [INFO] Using worker: sync
+[2014-12-05 01:29:56 +0000] [22705] [INFO] Booting worker with pid: 22705
+[2014-12-05 01:30:07 +0000] [22700] [INFO] Handling signal: int
+[2014-12-04 16:30:07 +0000] [22705] [INFO] Worker exiting (pid: 22705)
+[2014-12-05 01:30:08 +0000] [22700] [INFO] Shutting down: Master
+[2014-12-05 01:36:04 +0000] [22772] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:36:04 +0000] [22772] [INFO] Listening at: http://127.0.0.1:9001 (22772)
+[2014-12-05 01:36:04 +0000] [22772] [INFO] Using worker: sync
+[2014-12-05 01:36:04 +0000] [22777] [INFO] Booting worker with pid: 22777
+[2014-12-05 01:36:15 +0000] [22772] [INFO] Handling signal: int
+[2014-12-04 16:36:15 +0000] [22777] [INFO] Worker exiting (pid: 22777)
+[2014-12-05 01:36:15 +0000] [22772] [INFO] Shutting down: Master
+[2014-12-05 01:39:31 +0000] [22795] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:39:31 +0000] [22795] [INFO] Listening at: http://127.0.0.1:9001 (22795)
+[2014-12-05 01:39:31 +0000] [22795] [INFO] Using worker: sync
+[2014-12-05 01:39:31 +0000] [22800] [INFO] Booting worker with pid: 22800
+[2014-12-05 01:39:52 +0000] [22795] [INFO] Handling signal: int
+[2014-12-04 16:39:52 +0000] [22800] [INFO] Worker exiting (pid: 22800)
+[2014-12-05 01:39:52 +0000] [22795] [INFO] Shutting down: Master
+[2014-12-05 01:43:57 +0000] [22833] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:43:57 +0000] [22833] [INFO] Listening at: http://127.0.0.1:9001 (22833)
+[2014-12-05 01:43:57 +0000] [22833] [INFO] Using worker: sync
+[2014-12-05 01:43:57 +0000] [22838] [INFO] Booting worker with pid: 22838
+[2014-12-05 01:44:12 +0000] [22833] [INFO] Handling signal: int
+[2014-12-04 16:44:12 +0000] [22838] [INFO] Worker exiting (pid: 22838)
+[2014-12-05 01:44:12 +0000] [22833] [INFO] Shutting down: Master
+[2014-12-05 01:44:46 +0000] [22867] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:44:46 +0000] [22867] [INFO] Listening at: http://127.0.0.1:9001 (22867)
+[2014-12-05 01:44:46 +0000] [22867] [INFO] Using worker: sync
+[2014-12-05 01:44:46 +0000] [22872] [INFO] Booting worker with pid: 22872
+[2014-12-05 01:44:51 +0000] [22867] [INFO] Handling signal: int
+[2014-12-04 16:44:51 +0000] [22872] [INFO] Worker exiting (pid: 22872)
+[2014-12-05 01:44:51 +0000] [22867] [INFO] Shutting down: Master
+[2014-12-05 01:44:54 +0000] [22875] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:44:54 +0000] [22875] [INFO] Listening at: http://127.0.0.1:9001 (22875)
+[2014-12-05 01:44:54 +0000] [22875] [INFO] Using worker: sync
+[2014-12-05 01:44:54 +0000] [22880] [INFO] Booting worker with pid: 22880
+[2014-12-05 01:45:00 +0000] [22875] [INFO] Handling signal: int
+[2014-12-04 16:45:00 +0000] [22880] [INFO] Worker exiting (pid: 22880)
+[2014-12-05 01:45:00 +0000] [22875] [INFO] Shutting down: Master
+[2014-12-05 01:48:23 +0000] [22978] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:48:23 +0000] [22978] [INFO] Listening at: http://127.0.0.1:9001 (22978)
+[2014-12-05 01:48:23 +0000] [22978] [INFO] Using worker: sync
+[2014-12-05 01:48:23 +0000] [22983] [INFO] Booting worker with pid: 22983
+[2014-12-05 01:49:35 +0000] [22978] [INFO] Handling signal: int
+[2014-12-04 16:49:35 +0000] [22983] [INFO] Worker exiting (pid: 22983)
+[2014-12-05 01:49:35 +0000] [22978] [INFO] Shutting down: Master
+[2014-12-05 01:50:59 +0000] [23041] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 01:50:59 +0000] [23041] [INFO] Listening at: http://127.0.0.1:9001 (23041)
+[2014-12-05 01:50:59 +0000] [23041] [INFO] Using worker: sync
+[2014-12-05 01:50:59 +0000] [23046] [INFO] Booting worker with pid: 23046
+[2014-12-05 01:51:37 +0000] [23041] [INFO] Handling signal: int
+[2014-12-04 16:51:37 +0000] [23046] [INFO] Worker exiting (pid: 23046)
+[2014-12-05 01:51:37 +0000] [23041] [INFO] Shutting down: Master
+[2014-12-05 02:01:16 +0000] [23382] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:01:16 +0000] [23382] [INFO] Listening at: http://127.0.0.1:9001 (23382)
+[2014-12-05 02:01:16 +0000] [23382] [INFO] Using worker: sync
+[2014-12-05 02:01:16 +0000] [23387] [INFO] Booting worker with pid: 23387
+[2014-12-05 02:02:09 +0000] [23382] [INFO] Handling signal: int
+[2014-12-04 17:02:09 +0000] [23387] [INFO] Worker exiting (pid: 23387)
+[2014-12-05 02:02:09 +0000] [23382] [INFO] Shutting down: Master
+[2014-12-05 02:08:30 +0000] [23445] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:08:30 +0000] [23445] [INFO] Listening at: http://127.0.0.1:9001 (23445)
+[2014-12-05 02:08:30 +0000] [23445] [INFO] Using worker: sync
+[2014-12-05 02:08:30 +0000] [23450] [INFO] Booting worker with pid: 23450
+[2014-12-05 02:08:43 +0000] [23445] [INFO] Handling signal: winch
+[2014-12-05 02:12:09 +0000] [23445] [INFO] Handling signal: winch
+[2014-12-05 02:18:02 +0000] [23445] [INFO] Handling signal: winch
+[2014-12-05 02:18:04 +0000] [23445] [INFO] Handling signal: winch
+[2014-12-05 02:18:15 +0000] [23445] [INFO] Handling signal: winch
+[2014-12-05 02:18:52 +0000] [23445] [INFO] Handling signal: int
+[2014-12-04 17:18:52 +0000] [23450] [INFO] Worker exiting (pid: 23450)
+[2014-12-05 02:18:52 +0000] [23445] [INFO] Shutting down: Master
+[2014-12-05 02:19:25 +0000] [23948] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:19:25 +0000] [23948] [INFO] Listening at: http://127.0.0.1:9001 (23948)
+[2014-12-05 02:19:25 +0000] [23948] [INFO] Using worker: sync
+[2014-12-05 02:19:25 +0000] [23953] [INFO] Booting worker with pid: 23953
+[2014-12-05 02:19:33 +0000] [23948] [INFO] Handling signal: int
+[2014-12-04 17:19:33 +0000] [23953] [INFO] Worker exiting (pid: 23953)
+[2014-12-05 02:19:33 +0000] [23948] [INFO] Shutting down: Master
+[2014-12-05 02:20:25 +0000] [23969] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:20:25 +0000] [23969] [INFO] Listening at: http://127.0.0.1:9001 (23969)
+[2014-12-05 02:20:25 +0000] [23969] [INFO] Using worker: sync
+[2014-12-05 02:20:25 +0000] [23974] [INFO] Booting worker with pid: 23974
+[2014-12-05 02:20:31 +0000] [23969] [INFO] Handling signal: int
+[2014-12-04 17:20:31 +0000] [23974] [INFO] Worker exiting (pid: 23974)
+[2014-12-05 02:20:31 +0000] [23969] [INFO] Shutting down: Master
+[2014-12-05 02:22:08 +0000] [24140] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:22:08 +0000] [24140] [INFO] Listening at: http://127.0.0.1:9001 (24140)
+[2014-12-05 02:22:08 +0000] [24140] [INFO] Using worker: sync
+[2014-12-05 02:22:08 +0000] [24145] [INFO] Booting worker with pid: 24145
+[2014-12-05 02:22:19 +0000] [24140] [INFO] Handling signal: int
+[2014-12-04 17:22:19 +0000] [24145] [INFO] Worker exiting (pid: 24145)
+[2014-12-05 02:22:19 +0000] [24140] [INFO] Shutting down: Master
+[2014-12-05 02:37:55 +0000] [24361] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:37:55 +0000] [24361] [INFO] Listening at: http://127.0.0.1:9001 (24361)
+[2014-12-05 02:37:55 +0000] [24361] [INFO] Using worker: sync
+[2014-12-05 02:37:55 +0000] [24366] [INFO] Booting worker with pid: 24366
+[2014-12-05 02:38:07 +0000] [24361] [INFO] Handling signal: int
+[2014-12-04 17:38:07 +0000] [24366] [INFO] Worker exiting (pid: 24366)
+[2014-12-05 02:38:07 +0000] [24361] [INFO] Shutting down: Master
+[2014-12-05 02:50:18 +0000] [24624] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:50:18 +0000] [24624] [INFO] Listening at: http://127.0.0.1:9001 (24624)
+[2014-12-05 02:50:18 +0000] [24624] [INFO] Using worker: sync
+[2014-12-05 02:50:18 +0000] [24629] [INFO] Booting worker with pid: 24629
+[2014-12-05 02:50:37 +0000] [24624] [INFO] Handling signal: int
+[2014-12-04 17:50:37 +0000] [24629] [INFO] Worker exiting (pid: 24629)
+[2014-12-05 02:50:37 +0000] [24624] [INFO] Shutting down: Master
+[2014-12-05 02:55:55 +0000] [24774] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:55:55 +0000] [24774] [INFO] Listening at: http://127.0.0.1:9001 (24774)
+[2014-12-05 02:55:55 +0000] [24774] [INFO] Using worker: sync
+[2014-12-05 02:55:55 +0000] [24779] [INFO] Booting worker with pid: 24779
+[2014-12-05 02:56:06 +0000] [24774] [INFO] Handling signal: int
+[2014-12-04 17:56:06 +0000] [24779] [INFO] Worker exiting (pid: 24779)
+[2014-12-05 02:56:06 +0000] [24774] [INFO] Shutting down: Master
+[2014-12-05 02:58:34 +0000] [24865] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 02:58:34 +0000] [24865] [INFO] Listening at: http://127.0.0.1:9001 (24865)
+[2014-12-05 02:58:34 +0000] [24865] [INFO] Using worker: sync
+[2014-12-05 02:58:34 +0000] [24870] [INFO] Booting worker with pid: 24870
+[2014-12-05 02:59:11 +0000] [24865] [INFO] Handling signal: int
+[2014-12-04 17:59:11 +0000] [24870] [INFO] Worker exiting (pid: 24870)
+[2014-12-05 02:59:11 +0000] [24865] [INFO] Shutting down: Master
+[2014-12-05 03:01:14 +0000] [24933] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:01:14 +0000] [24933] [INFO] Listening at: http://127.0.0.1:9001 (24933)
+[2014-12-05 03:01:14 +0000] [24933] [INFO] Using worker: sync
+[2014-12-05 03:01:14 +0000] [24938] [INFO] Booting worker with pid: 24938
+[2014-12-05 03:02:09 +0000] [24933] [INFO] Handling signal: int
+[2014-12-04 18:02:09 +0000] [24938] [INFO] Worker exiting (pid: 24938)
+[2014-12-05 03:02:09 +0000] [24933] [INFO] Shutting down: Master
+[2014-12-05 03:02:56 +0000] [24977] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:02:56 +0000] [24977] [INFO] Listening at: http://127.0.0.1:9001 (24977)
+[2014-12-05 03:02:56 +0000] [24977] [INFO] Using worker: sync
+[2014-12-05 03:02:56 +0000] [24982] [INFO] Booting worker with pid: 24982
+[2014-12-05 03:03:05 +0000] [24977] [INFO] Handling signal: int
+[2014-12-04 18:03:05 +0000] [24982] [INFO] Worker exiting (pid: 24982)
+[2014-12-05 03:03:05 +0000] [24977] [INFO] Shutting down: Master
+[2014-12-05 03:05:34 +0000] [25028] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:05:34 +0000] [25028] [INFO] Listening at: http://127.0.0.1:9001 (25028)
+[2014-12-05 03:05:34 +0000] [25028] [INFO] Using worker: sync
+[2014-12-05 03:05:34 +0000] [25033] [INFO] Booting worker with pid: 25033
+[2014-12-05 03:06:15 +0000] [25028] [INFO] Handling signal: int
+[2014-12-04 18:06:15 +0000] [25033] [INFO] Worker exiting (pid: 25033)
+[2014-12-05 03:06:15 +0000] [25028] [INFO] Shutting down: Master
+[2014-12-05 03:06:42 +0000] [25037] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:06:42 +0000] [25037] [INFO] Listening at: http://127.0.0.1:9001 (25037)
+[2014-12-05 03:06:42 +0000] [25037] [INFO] Using worker: sync
+[2014-12-05 03:06:42 +0000] [25042] [INFO] Booting worker with pid: 25042
+[2014-12-05 03:06:55 +0000] [25037] [INFO] Handling signal: int
+[2014-12-04 18:06:55 +0000] [25042] [INFO] Worker exiting (pid: 25042)
+[2014-12-05 03:06:55 +0000] [25037] [INFO] Shutting down: Master
+[2014-12-05 03:07:25 +0000] [25046] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:07:25 +0000] [25046] [INFO] Listening at: http://127.0.0.1:9001 (25046)
+[2014-12-05 03:07:25 +0000] [25046] [INFO] Using worker: sync
+[2014-12-05 03:07:25 +0000] [25051] [INFO] Booting worker with pid: 25051
+[2014-12-05 03:07:41 +0000] [25046] [INFO] Handling signal: int
+[2014-12-04 18:07:41 +0000] [25051] [INFO] Worker exiting (pid: 25051)
+[2014-12-05 03:07:41 +0000] [25046] [INFO] Shutting down: Master
+[2014-12-05 03:08:40 +0000] [25089] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:08:40 +0000] [25089] [INFO] Listening at: http://127.0.0.1:9001 (25089)
+[2014-12-05 03:08:40 +0000] [25089] [INFO] Using worker: sync
+[2014-12-05 03:08:40 +0000] [25094] [INFO] Booting worker with pid: 25094
+[2014-12-05 03:09:23 +0000] [25089] [INFO] Handling signal: int
+[2014-12-04 18:09:23 +0000] [25094] [INFO] Worker exiting (pid: 25094)
+[2014-12-05 03:09:24 +0000] [25089] [INFO] Shutting down: Master
+[2014-12-05 03:09:50 +0000] [25115] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:09:50 +0000] [25115] [INFO] Listening at: http://127.0.0.1:9001 (25115)
+[2014-12-05 03:09:50 +0000] [25115] [INFO] Using worker: sync
+[2014-12-05 03:09:50 +0000] [25120] [INFO] Booting worker with pid: 25120
+[2014-12-05 03:11:19 +0000] [25115] [INFO] Handling signal: int
+[2014-12-04 18:11:19 +0000] [25120] [INFO] Worker exiting (pid: 25120)
+[2014-12-05 03:11:19 +0000] [25115] [INFO] Shutting down: Master
+[2014-12-05 03:12:38 +0000] [25158] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:12:38 +0000] [25158] [INFO] Listening at: http://127.0.0.1:9001 (25158)
+[2014-12-05 03:12:38 +0000] [25158] [INFO] Using worker: sync
+[2014-12-05 03:12:38 +0000] [25163] [INFO] Booting worker with pid: 25163
+[2014-12-05 03:12:46 +0000] [25158] [INFO] Handling signal: int
+[2014-12-04 18:12:46 +0000] [25163] [INFO] Worker exiting (pid: 25163)
+[2014-12-05 03:12:46 +0000] [25158] [INFO] Shutting down: Master
+[2014-12-05 03:22:46 +0000] [25414] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:22:46 +0000] [25414] [INFO] Listening at: http://127.0.0.1:9001 (25414)
+[2014-12-05 03:22:46 +0000] [25414] [INFO] Using worker: sync
+[2014-12-05 03:22:46 +0000] [25419] [INFO] Booting worker with pid: 25419
+[2014-12-05 03:23:25 +0000] [25414] [INFO] Handling signal: int
+[2014-12-04 18:23:25 +0000] [25419] [INFO] Worker exiting (pid: 25419)
+[2014-12-05 03:23:25 +0000] [25414] [INFO] Shutting down: Master
+[2014-12-05 03:25:10 +0000] [25472] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:25:10 +0000] [25472] [INFO] Listening at: http://127.0.0.1:9001 (25472)
+[2014-12-05 03:25:10 +0000] [25472] [INFO] Using worker: sync
+[2014-12-05 03:25:10 +0000] [25477] [INFO] Booting worker with pid: 25477
+[2014-12-05 03:25:47 +0000] [25472] [INFO] Handling signal: int
+[2014-12-04 18:25:47 +0000] [25477] [INFO] Worker exiting (pid: 25477)
+[2014-12-05 03:25:47 +0000] [25472] [INFO] Shutting down: Master
+[2014-12-05 03:31:03 +0000] [25687] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:31:03 +0000] [25687] [INFO] Listening at: http://127.0.0.1:9001 (25687)
+[2014-12-05 03:31:03 +0000] [25687] [INFO] Using worker: sync
+[2014-12-05 03:31:03 +0000] [25692] [INFO] Booting worker with pid: 25692
+[2014-12-04 18:31:06 +0000] [25692] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 16, in <module>
+    url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATICFILES_DIRS}),
+AttributeError: 'module' object has no attribute 'STATICFILES_DIRS'
+[2014-12-04 18:31:13 +0000] [25692] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 16, in <module>
+    url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATICFILES_DIRS}),
+AttributeError: 'module' object has no attribute 'STATICFILES_DIRS'
+[2014-12-04 18:31:14 +0000] [25692] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 16, in <module>
+    url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATICFILES_DIRS}),
+AttributeError: 'module' object has no attribute 'STATICFILES_DIRS'
+[2014-12-05 03:31:22 +0000] [25687] [INFO] Handling signal: int
+[2014-12-04 18:31:22 +0000] [25692] [INFO] Worker exiting (pid: 25692)
+[2014-12-05 03:31:22 +0000] [25687] [INFO] Shutting down: Master
+[2014-12-05 03:31:27 +0000] [25694] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:31:27 +0000] [25694] [INFO] Listening at: http://127.0.0.1:9001 (25694)
+[2014-12-05 03:31:27 +0000] [25694] [INFO] Using worker: sync
+[2014-12-05 03:31:27 +0000] [25699] [INFO] Booting worker with pid: 25699
+[2014-12-04 18:31:30 +0000] [25699] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 16, in <module>
+    url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATICFILES_DIRS}),
+AttributeError: 'module' object has no attribute 'STATICFILES_DIRS'
+[2014-12-05 03:31:32 +0000] [25694] [INFO] Handling signal: int
+[2014-12-04 18:31:32 +0000] [25699] [INFO] Worker exiting (pid: 25699)
+[2014-12-05 03:31:32 +0000] [25694] [INFO] Shutting down: Master
+[2014-12-05 03:32:08 +0000] [25729] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:32:08 +0000] [25729] [INFO] Listening at: http://127.0.0.1:9001 (25729)
+[2014-12-05 03:32:08 +0000] [25729] [INFO] Using worker: sync
+[2014-12-05 03:32:09 +0000] [25734] [INFO] Booting worker with pid: 25734
+[2014-12-04 18:32:10 +0000] [25734] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 16, in <module>
+    url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATICFILES_DIRS}),
+AttributeError: 'module' object has no attribute 'STATICFILES_DIRS'
+[2014-12-05 03:32:13 +0000] [25729] [INFO] Handling signal: int
+[2014-12-04 18:32:13 +0000] [25734] [INFO] Worker exiting (pid: 25734)
+[2014-12-05 03:32:13 +0000] [25729] [INFO] Shutting down: Master
+[2014-12-05 03:32:40 +0000] [25753] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:32:40 +0000] [25753] [INFO] Listening at: http://127.0.0.1:9001 (25753)
+[2014-12-05 03:32:40 +0000] [25753] [INFO] Using worker: sync
+[2014-12-05 03:32:40 +0000] [25758] [INFO] Booting worker with pid: 25758
+[2014-12-05 03:32:46 +0000] [25753] [INFO] Handling signal: int
+[2014-12-04 18:32:46 +0000] [25758] [INFO] Worker exiting (pid: 25758)
+[2014-12-05 03:32:46 +0000] [25753] [INFO] Shutting down: Master
+[2014-12-05 03:33:20 +0000] [25786] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:33:20 +0000] [25786] [INFO] Listening at: http://127.0.0.1:9001 (25786)
+[2014-12-05 03:33:20 +0000] [25786] [INFO] Using worker: sync
+[2014-12-05 03:33:20 +0000] [25791] [INFO] Booting worker with pid: 25791
+[2014-12-05 03:33:26 +0000] [25786] [INFO] Handling signal: int
+[2014-12-04 18:33:26 +0000] [25791] [INFO] Worker exiting (pid: 25791)
+[2014-12-05 03:33:26 +0000] [25786] [INFO] Shutting down: Master
+[2014-12-05 03:34:42 +0000] [25831] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:34:42 +0000] [25831] [INFO] Listening at: http://127.0.0.1:9001 (25831)
+[2014-12-05 03:34:42 +0000] [25831] [INFO] Using worker: sync
+[2014-12-05 03:34:42 +0000] [25836] [INFO] Booting worker with pid: 25836
+[2014-12-05 03:35:08 +0000] [25831] [INFO] Handling signal: int
+[2014-12-04 18:35:08 +0000] [25836] [INFO] Worker exiting (pid: 25836)
+[2014-12-05 03:35:08 +0000] [25831] [INFO] Shutting down: Master
+[2014-12-05 03:35:27 +0000] [25839] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:35:27 +0000] [25839] [INFO] Listening at: http://127.0.0.1:9001 (25839)
+[2014-12-05 03:35:27 +0000] [25839] [INFO] Using worker: sync
+[2014-12-05 03:35:27 +0000] [25844] [INFO] Booting worker with pid: 25844
+[2014-12-05 03:35:54 +0000] [25839] [INFO] Handling signal: int
+[2014-12-04 18:35:54 +0000] [25844] [INFO] Worker exiting (pid: 25844)
+[2014-12-05 03:35:54 +0000] [25839] [INFO] Shutting down: Master
+[2014-12-05 03:40:19 +0000] [26044] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 03:40:19 +0000] [26044] [INFO] Listening at: http://127.0.0.1:9001 (26044)
+[2014-12-05 03:40:19 +0000] [26044] [INFO] Using worker: sync
+[2014-12-05 03:40:19 +0000] [26049] [INFO] Booting worker with pid: 26049

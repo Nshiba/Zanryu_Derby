@@ -22,6 +22,7 @@ SECRET_KEY = 'ewugr#6+kc4n3*cq&-^!2m6-^o-oj_vw*5w)%@^69o)dow76rq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -38,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mysite.zanryu',
-    # 'gunicorn'
+    'gunicorn'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -70,11 +71,12 @@ DATABASES = {
 SITE_ROOT = abspath(os.path.join(dirname(__file__),".."))
 
 STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(os.path.join(BASE_DIR, 'static/'))
 
-STATICFILES_DIRS = (
-    os.path.join(SITE_ROOT, 'static'),
-)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#STATICFILES_DIRS = (
+#    os.path.join(BASE_DIR, 'static'),
+#)
 
 TEMPLATE_DIRS = (
         os.path.join(BASE_DIR,'templates'),
