@@ -1,7 +1,7 @@
 from django.db import models
 
 class Person(models.Model):
-    student_id = models.CharField(max_length=7)
+    student_id = models.CharField(max_length=7, unique=True)
     name = models.TextField()
     now_entry_exit = models.BooleanField()
 
@@ -17,5 +17,5 @@ class Log(models.Model):
         return self.student_id
 
 class MyStatus(models.Model):
-    student_id = models.ForeignKey(to_field=Person.student_id)
+    student_id = models.ForeignKey(Person, to_field='student_id')
     zanryu_kaisu = models.IntegerField()
