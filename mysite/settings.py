@@ -21,7 +21,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'ewugr#6+kc4n3*cq&-^!2m6-^o-oj_vw*5w)%@^69o)dow76rq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# local環境
 DEBUG = True
+
+#サーバ環境
 #DEBUG = False
 
 TEMPLATE_DEBUG = True
@@ -39,7 +42,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mysite.zanryu',
-    'gunicorn'
+    #サーバ環境
+    # 'gunicorn'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -72,11 +76,13 @@ SITE_ROOT = abspath(os.path.join(dirname(__file__),".."))
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#サーバ環境
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-#STATICFILES_DIRS = (
-#    os.path.join(BASE_DIR, 'static'),
-#)
+#local環境
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 TEMPLATE_DIRS = (
         os.path.join(BASE_DIR,'templates'),

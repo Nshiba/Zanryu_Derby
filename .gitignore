@@ -1,2 +1,4 @@
 *.pyc
 my_run_server.sh
+settings.py
+urls.py

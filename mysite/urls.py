@@ -12,7 +12,10 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'mysite.zanryu.views.index'),
-    url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATIC_ROOT}),
+    #サーバ環境
+    # url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATIC_ROOT}),
+
     #url(r'^static/(?P<path>/*)$', 'django.views.static.serve',{'document_root':settings.STATICFILES_DIRS}),
 )
-# urlpatterns += staticfiles_urlpatterns()
+#local環境
+urlpatterns += staticfiles_urlpatterns()
