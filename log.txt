@@ -410,3 +410,191 @@ AttributeError: 'module' object has no attribute 'STATICFILES_DIRS'
 [2014-12-05 03:40:19 +0000] [26044] [INFO] Listening at: http://127.0.0.1:9001 (26044)
 [2014-12-05 03:40:19 +0000] [26044] [INFO] Using worker: sync
 [2014-12-05 03:40:19 +0000] [26049] [INFO] Booting worker with pid: 26049
+[2014-12-05 05:51:37 +0000] [26044] [INFO] Handling signal: hup
+[2014-12-05 05:51:37 +0000] [26044] [INFO] Hang up: Master
+[2014-12-05 05:51:37 +0000] [26658] [INFO] Booting worker with pid: 26658
+[2014-12-05 13:09:33 +0000] [27267] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:09:33 +0000] [27267] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:09:33 +0000] [27267] [ERROR] Retrying in 1 second.
+[2014-12-05 13:09:34 +0000] [27267] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:09:34 +0000] [27267] [ERROR] Retrying in 1 second.
+[2014-12-05 13:09:35 +0000] [27267] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:09:35 +0000] [27267] [ERROR] Retrying in 1 second.
+[2014-12-05 13:09:36 +0000] [27267] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:09:36 +0000] [27267] [ERROR] Retrying in 1 second.
+[2014-12-05 13:09:37 +0000] [27267] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:09:37 +0000] [27267] [ERROR] Retrying in 1 second.
+[2014-12-05 13:09:38 +0000] [27267] [ERROR] Can't connect to ('127.0.0.1', 9001)
+[2014-12-05 13:10:01 +0000] [27273] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:10:01 +0000] [27273] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:10:01 +0000] [27273] [ERROR] Retrying in 1 second.
+[2014-12-05 13:10:02 +0000] [27273] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:10:02 +0000] [27273] [ERROR] Retrying in 1 second.
+[2014-12-05 13:10:03 +0000] [27273] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:10:03 +0000] [27273] [ERROR] Retrying in 1 second.
+[2014-12-05 13:10:04 +0000] [27273] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:10:04 +0000] [27273] [ERROR] Retrying in 1 second.
+[2014-12-05 13:10:05 +0000] [27273] [ERROR] Connection in use: ('127.0.0.1', 9001)
+[2014-12-05 13:10:05 +0000] [27273] [ERROR] Retrying in 1 second.
+[2014-12-05 13:10:06 +0000] [27273] [ERROR] Can't connect to ('127.0.0.1', 9001)
+[2014-12-05 13:10:44 +0000] [26044] [INFO] Handling signal: term
+[2014-12-05 04:10:44 +0000] [26658] [INFO] Worker exiting (pid: 26658)
+[2014-12-05 13:10:44 +0000] [26044] [INFO] Shutting down: Master
+[2014-12-05 13:39:24 +0000] [1681] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:39:24 +0000] [1681] [INFO] Listening at: http://127.0.0.1:9001 (1681)
+[2014-12-05 13:39:24 +0000] [1681] [INFO] Using worker: sync
+[2014-12-05 13:39:24 +0000] [1686] [INFO] Booting worker with pid: 1686
+[2014-12-05 04:40:10 +0000] [1686] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 15
+SyntaxError: Non-ASCII character '\xe3' in file /home/naoya/Projects/Zanryu_Derby/mysite/urls.py on line 15, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+[2014-12-05 04:40:10 +0000] [1686] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 15
+SyntaxError: Non-ASCII character '\xe3' in file /home/naoya/Projects/Zanryu_Derby/mysite/urls.py on line 15, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+[2014-12-05 13:40:27 +0000] [1681] [INFO] Handling signal: int
+[2014-12-05 04:40:27 +0000] [1686] [INFO] Worker exiting (pid: 1686)
+[2014-12-05 13:40:27 +0000] [1681] [INFO] Shutting down: Master
+[2014-12-05 13:41:09 +0000] [1747] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:41:09 +0000] [1747] [INFO] Listening at: http://127.0.0.1:9001 (1747)
+[2014-12-05 13:41:09 +0000] [1747] [INFO] Using worker: sync
+[2014-12-05 13:41:09 +0000] [1752] [INFO] Booting worker with pid: 1752
+[2014-12-05 04:41:14 +0000] [1752] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 15
+SyntaxError: Non-ASCII character '\xe3' in file /home/naoya/Projects/Zanryu_Derby/mysite/urls.py on line 15, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+[2014-12-05 04:41:16 +0000] [1752] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 93, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 134, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in get_response
+    resolver, sys.exc_info())
+  File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 232, in handle_uncaught_exception
+    if resolver.urlconf_module is None:
+  File "/usr/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/naoya/Projects/Zanryu_Derby/mysite/urls.py", line 15
+SyntaxError: Non-ASCII character '\xe3' in file /home/naoya/Projects/Zanryu_Derby/mysite/urls.py on line 15, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+[2014-12-05 13:41:18 +0000] [1747] [INFO] Handling signal: int
+[2014-12-05 04:41:18 +0000] [1752] [INFO] Worker exiting (pid: 1752)
+[2014-12-05 13:41:18 +0000] [1747] [INFO] Shutting down: Master
+[2014-12-05 13:44:43 +0000] [1934] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:44:43 +0000] [1934] [INFO] Listening at: http://127.0.0.1:9001 (1934)
+[2014-12-05 13:44:43 +0000] [1934] [INFO] Using worker: sync
+[2014-12-05 13:44:43 +0000] [1939] [INFO] Booting worker with pid: 1939
+[2014-12-05 13:44:54 +0000] [1934] [INFO] Handling signal: int
+[2014-12-05 04:44:54 +0000] [1939] [INFO] Worker exiting (pid: 1939)
+[2014-12-05 13:44:55 +0000] [1934] [INFO] Shutting down: Master
+[2014-12-05 13:45:46 +0000] [1961] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:45:46 +0000] [1961] [INFO] Listening at: http://127.0.0.1:9001 (1961)
+[2014-12-05 13:45:46 +0000] [1961] [INFO] Using worker: sync
+[2014-12-05 13:45:46 +0000] [1966] [INFO] Booting worker with pid: 1966
+[2014-12-05 13:45:55 +0000] [1961] [INFO] Handling signal: int
+[2014-12-05 04:45:55 +0000] [1966] [INFO] Worker exiting (pid: 1966)
+[2014-12-05 13:45:55 +0000] [1961] [INFO] Shutting down: Master
+[2014-12-05 13:46:04 +0000] [1970] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:46:04 +0000] [1970] [INFO] Listening at: http://127.0.0.1:9001 (1970)
+[2014-12-05 13:46:04 +0000] [1970] [INFO] Using worker: sync
+[2014-12-05 13:46:04 +0000] [1975] [INFO] Booting worker with pid: 1975
+[2014-12-05 13:46:13 +0000] [1970] [INFO] Handling signal: int
+[2014-12-05 04:46:13 +0000] [1975] [INFO] Worker exiting (pid: 1975)
+[2014-12-05 13:46:13 +0000] [1970] [INFO] Shutting down: Master
+[2014-12-05 13:46:41 +0000] [1978] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:46:41 +0000] [1978] [INFO] Listening at: http://127.0.0.1:9001 (1978)
+[2014-12-05 13:46:41 +0000] [1978] [INFO] Using worker: sync
+[2014-12-05 13:46:41 +0000] [1983] [INFO] Booting worker with pid: 1983
+[2014-12-05 13:46:57 +0000] [1978] [INFO] Handling signal: int
+[2014-12-05 04:46:57 +0000] [1983] [INFO] Worker exiting (pid: 1983)
+[2014-12-05 13:46:57 +0000] [1978] [INFO] Shutting down: Master
+[2014-12-05 13:47:41 +0000] [1987] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:47:41 +0000] [1987] [INFO] Listening at: http://127.0.0.1:9001 (1987)
+[2014-12-05 13:47:41 +0000] [1987] [INFO] Using worker: sync
+[2014-12-05 13:47:41 +0000] [1992] [INFO] Booting worker with pid: 1992
+[2014-12-05 13:48:51 +0000] [1987] [INFO] Handling signal: int
+[2014-12-05 04:48:51 +0000] [1992] [INFO] Worker exiting (pid: 1992)
+[2014-12-05 13:48:51 +0000] [1987] [INFO] Shutting down: Master
+[2014-12-05 13:50:14 +0000] [2013] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 13:50:14 +0000] [2013] [INFO] Listening at: http://127.0.0.1:9001 (2013)
+[2014-12-05 13:50:14 +0000] [2013] [INFO] Using worker: sync
+[2014-12-05 13:50:14 +0000] [2018] [INFO] Booting worker with pid: 2018
+[2014-12-05 13:50:18 +0000] [2013] [INFO] Handling signal: int
+[2014-12-05 04:50:18 +0000] [2018] [INFO] Worker exiting (pid: 2018)
+[2014-12-05 13:50:18 +0000] [2013] [INFO] Shutting down: Master
+[2014-12-05 21:47:46 +0000] [2563] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 21:47:46 +0000] [2563] [INFO] Listening at: http://127.0.0.1:9001 (2563)
+[2014-12-05 21:47:46 +0000] [2563] [INFO] Using worker: sync
+[2014-12-05 21:47:46 +0000] [2568] [INFO] Booting worker with pid: 2568
+[2014-12-05 21:48:18 +0000] [2563] [INFO] Handling signal: int
+[2014-12-05 12:48:18 +0000] [2568] [INFO] Worker exiting (pid: 2568)
+[2014-12-05 21:48:18 +0000] [2563] [INFO] Shutting down: Master
+[2014-12-05 21:48:44 +0000] [2607] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 21:48:44 +0000] [2607] [INFO] Listening at: http://127.0.0.1:9001 (2607)
+[2014-12-05 21:48:44 +0000] [2607] [INFO] Using worker: sync
+[2014-12-05 21:48:44 +0000] [2612] [INFO] Booting worker with pid: 2612
+[2014-12-05 21:49:34 +0000] [2607] [INFO] Handling signal: int
+[2014-12-05 12:49:34 +0000] [2612] [INFO] Worker exiting (pid: 2612)
+[2014-12-05 21:49:34 +0000] [2607] [INFO] Shutting down: Master
+[2014-12-05 21:58:49 +0000] [2755] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 21:58:49 +0000] [2755] [INFO] Listening at: http://127.0.0.1:9001 (2755)
+[2014-12-05 21:58:49 +0000] [2755] [INFO] Using worker: sync
+[2014-12-05 21:58:49 +0000] [2760] [INFO] Booting worker with pid: 2760
+[2014-12-05 21:59:08 +0000] [2755] [INFO] Handling signal: int
+[2014-12-05 12:59:08 +0000] [2760] [INFO] Worker exiting (pid: 2760)
+[2014-12-05 21:59:08 +0000] [2755] [INFO] Shutting down: Master
+[2014-12-05 21:59:27 +0000] [2762] [INFO] Starting gunicorn 19.1.1
+[2014-12-05 21:59:27 +0000] [2762] [INFO] Listening at: http://127.0.0.1:9001 (2762)
+[2014-12-05 21:59:27 +0000] [2762] [INFO] Using worker: sync
+[2014-12-05 21:59:27 +0000] [2767] [INFO] Booting worker with pid: 2767
+[2014-12-05 21:59:46 +0000] [2762] [INFO] Handling signal: winch
+[2014-12-05 21:59:46 +0000] [2762] [INFO] Handling signal: winch
+[2014-12-05 22:00:26 +0000] [2762] [INFO] Handling signal: int
+[2014-12-05 22:00:26 +0000] [2767] [INFO] Worker exiting (pid: 2767)
+[2014-12-05 22:00:26 +0000] [2762] [INFO] Shutting down: Master

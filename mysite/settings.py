@@ -29,7 +29,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -43,7 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'mysite.zanryu',
 # server
-    # 'gunicorn'
+    'gunicorn'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -77,12 +77,12 @@ SITE_ROOT = abspath(os.path.join(dirname(__file__),".."))
 STATIC_URL = '/static/'
 
 # server
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # local
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+#STATICFILES_DIRS = (
+#    os.path.join(BASE_DIR, 'static'),
+#)
 
 TEMPLATE_DIRS = (
         os.path.join(BASE_DIR,'templates'),
